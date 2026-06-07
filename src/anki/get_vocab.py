@@ -5,7 +5,6 @@ import os
 # AnkiConnect exposes port 8765
 ANKI_URL = f"http://{os.environ.get('ANKI_HOST', 'localhost')}:8765"
 
-
 def anki_invoke(action, **params):
     payload = {"action": action, "version": 6, "params": params}
     response = requests.post(ANKI_URL, json=payload).json()
