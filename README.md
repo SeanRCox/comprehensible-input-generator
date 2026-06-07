@@ -6,4 +6,4 @@
 
 3: Generates spoken Japanese audio via ElevenLabs API
 
-Allows you to practice listening to Japanese with interesting stories based on your vocabulary words.
+Allows you to practice listening to Japanese with interesting stories.
